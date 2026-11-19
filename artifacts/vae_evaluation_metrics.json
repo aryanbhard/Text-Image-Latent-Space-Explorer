@@ -1,0 +1,9 @@
+{
+  "test_samples": 10000,
+  "mean_elbo_loss": 275.2923,
+  "mean_bce_reconstruction_loss": 269.6866,
+  "mean_kl_divergence": 5.6057,
+  "latent_dimension": 2,
+  "model_architecture": "ConvVAE-32-64-FC128-Latent2",
+  "decoding_check_passed": true
+}
