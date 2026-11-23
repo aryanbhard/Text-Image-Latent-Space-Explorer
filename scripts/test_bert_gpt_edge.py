@@ -2,6 +2,13 @@
 Edge-case tests for BERT fill-mask and GPT generation features.
 Audit verification script — do not modify project files.
 """
+import sys
+try:
+    import regex
+except ImportError:
+    import re
+    sys.modules["regex"] = re
+
 from transformers import pipeline
 import sys
 

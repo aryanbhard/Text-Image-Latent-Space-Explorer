@@ -9,6 +9,13 @@ and contrasts in-context prompt learning with full model fine-tuning.
 Text & Image Latent-Space Explorer (Project P6 - Roll Number: 06)
 """
 
+import sys
+try:
+    import regex
+except ImportError:
+    import re
+    sys.modules["regex"] = re
+
 import streamlit as st
 import numpy as np
 import plotly.graph_objects as go

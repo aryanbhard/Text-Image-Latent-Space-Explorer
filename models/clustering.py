@@ -5,7 +5,10 @@ Text & Image Latent-Space Explorer (Project P6 - Roll Number: 06)
 
 import numpy as np
 from typing import Dict, Any, List
-from sklearn.cluster import KMeans
+try:
+    from sklearn.cluster import KMeans
+except ImportError:
+    from sklearn.cluster._kmeans import KMeans
 from sklearn.metrics import silhouette_score
 
 

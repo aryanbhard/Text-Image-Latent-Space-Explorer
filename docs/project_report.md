@@ -11,10 +11,10 @@
 **Institution:** MIT-ADT University  
 **Academic Year:** 2026–27  
 
-**Student Name:** [ADD STUDENT NAME]  
+**Student Name:** Aryan Bhardwaj  
 **Roll Number:** 06  
-**GitHub Repository:** [ADD AFTER DEPLOYMENT]  
-**Live Application URL:** [ADD AFTER DEPLOYMENT]  
+**GitHub Repository:** https://github.com/aryanbhard/Text-Image-Latent-Space-Explorer  
+**Live Application URL:** [PENDING DEPLOYMENT — Application runs locally via: `streamlit run app.py`]  
 
 ---
 

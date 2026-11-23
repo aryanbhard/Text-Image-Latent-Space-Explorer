@@ -4,6 +4,13 @@ Test script for Page 7 features:
 - BERT fill-mask (distilbert-base-uncased)
 - GPT text generation (distilgpt2)
 """
+import sys
+try:
+    import regex
+except ImportError:
+    import re
+    sys.modules["regex"] = re
+
 from transformers import pipeline, AutoTokenizer, AutoModel
 import torch
 import numpy as np
